@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- index.html / index.css / reset.css / -->
+
+
+<header>
+    <div>
+        <h1><a href="#">rerave</a></h1>
+        <nav>
+            <a href="#"> ABOUT</a>
+            <a href="#"> PRODUCT</a>
+            <a href="#"> CONTACT</a>
+            <a href="#"> SURVICE</a>
+        </nav>
+        <div>
+            <input type="search" name="sr">
+        </div>
+    </div>
+</header>
+
+<main>
+    <figure class="spot">
+        <img src="./img/CON1.jpg" alt="">
+        <figcaption>
+            <b class="ani-txt">
+            REVIVE YOUR YOUTH
+            AND BEAUTIFUL MOMENT
+            </b>
+            <p class="ani-txt">
+            푸른 바다와 깊이 있는 연구가 만나 만드는 경이로운 가치
+            </p>
+            <a class="btn-view" href="#"> View more </a>
+        </figcaption>
+    </figure>
+
+<article class="product">
+    <h2>PRODUCT</h2>
+    <div class="slide">
+        <div class="swiper-wrapper">
+            <figure class="swiper-slide">
+                <img src="./img/Mask group.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/div.SwiperMain_mainSlide__wYQ5i-1.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/div.SwiperMain_mainSlide__wYQ5i-2.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/div.SwiperMain_mainSlide__wYQ5i-3.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/Mask group.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/div.SwiperMain_mainSlide__wYQ5i-1.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/div.SwiperMain_mainSlide__wYQ5i-2.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+            <figure class="swiper-slide">
+                <img src="./img/div.SwiperMain_mainSlide__wYQ5i-3.jpg" alt="">
+                <figcaption>
+                    <b>YOUTH</b>
+                    <p>푸른 바다와 경이로운 가치</p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+</article>
+
+
+</main>
+
+<footer></footer>
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".slide", {
+        slidesPerView:4,
+        spaceBetween:30,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints:{
+            0:{
+                slidesPerView:1,
+                spaceBetween:0,
+            }
+            480:{
+                slidesPerView:2,
+                spaceBetween:30,
+            }
+            768:{
+                slidesPerView:3,
+                spaceBetween:30,
+            }
+        }
+    });
+  </script>
+
+</body>
+</html>
